@@ -855,17 +855,17 @@ const unsigned char custom_start_bmp11[] PROGMEM = {
 
   // Each Frame has its own custom duration
   const boot_frame_t custom_bootscreen_animation[] PROGMEM = {
-    { custom_start_bmp,   200 }, // 0.2s x 11
-    { custom_start_bmp1,  200 },  
-    { custom_start_bmp2,  200 },  
-    { custom_start_bmp3,  200 },
-    { custom_start_bmp4,  200 },
-    { custom_start_bmp5,  200 },
-    { custom_start_bmp6,  200 },
-    { custom_start_bmp7,  200 },
-    { custom_start_bmp8,  200 },
-    { custom_start_bmp9,  200 },
-    { custom_start_bmp10,  200 },
+    { custom_start_bmp,   500 }, // 0.2s x 11
+    { custom_start_bmp1,  350 },  
+    { custom_start_bmp2,  350 },  
+    { custom_start_bmp3,  550 },
+    { custom_start_bmp4,  350 },
+    { custom_start_bmp5,  350 },
+    { custom_start_bmp6,  350 },
+    { custom_start_bmp7,  350 },
+    { custom_start_bmp8,  350 },
+    { custom_start_bmp9,  350 },
+    { custom_start_bmp10,  350 },
     { custom_start_bmp11,  2000 },  // 2.0s
        
   };
