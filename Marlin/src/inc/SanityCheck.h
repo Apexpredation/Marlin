@@ -2155,7 +2155,7 @@ static_assert(Y_MAX_LENGTH >= Y_BED_SIZE, "Movement bounds (Y_MIN_POS, Y_MAX_POS
   #elif !GOOD_AXIS_PINS(X2)
     #error "DUAL_X_CARRIAGE requires X2 stepper pins to be defined."
   #elif !HAS_X_MAX
-    #error "DUAL_X_CARRIAGE requires USE_XMAX_PLUG and an X Max Endstop."
+    //#error "DUAL_X_CARRIAGE requires USE_XMAX_PLUG and an X Max Endstop."
   #elif !defined(X2_HOME_POS) || !defined(X2_MIN_POS) || !defined(X2_MAX_POS)
     #error "DUAL_X_CARRIAGE requires X2_HOME_POS, X2_MIN_POS, and X2_MAX_POS."
   #elif X_HOME_TO_MAX || X2_HOME_TO_MIN
